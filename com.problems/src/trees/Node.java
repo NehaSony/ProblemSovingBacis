@@ -37,7 +37,14 @@ class Node {
             binarySearch(value,node.left);
         }if(node.right!=null&&node.right.value>value){
             binarySearch(value,node.right);
-        }if (node.value==value||node.left.value==value||node.right.value==value){
+        }if (node.value==value||node.left!=null&&node.left.value==value||node.right!=null&&node.right.value==value){
+            return true;
+        }
+        return false;
+    }
+
+    boolean isLeafNode(Node node){
+        if (node.left==null&&node.right==null){
             return true;
         }
         return false;
