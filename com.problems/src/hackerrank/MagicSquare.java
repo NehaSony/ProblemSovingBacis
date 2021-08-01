@@ -36,8 +36,6 @@ class MagicSquareResult {
 }
 
 
-
-
 public class MagicSquare {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
