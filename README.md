@@ -1,2 +1,3 @@
 # ProblemSovingBacis
-Repo for basic of any problem solving / DS related problems
+A repository for problem solving and data structure related commonly asked interview questions.
+
